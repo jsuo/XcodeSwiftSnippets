@@ -9,8 +9,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        //MARK: UITableViewDataSource
-
+	<string>
+//MARK: - UITableViewDataSource
+extension &lt;#ViewController#&gt;: UITableViewDataSource {
         func numberOfSections(in tableView: UITableView) -&gt; Int {
             return &lt;#numberOfSections#&gt;
         }
@@ -27,7 +28,8 @@
 
         func configureCell(cell: UITableViewCell, forRowAt indexPath: IndexPath) {
 
-        }</string>
+        }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>380DBCD1-ECFB-4A8C-B7B2-DDE628A540E3</string>
 	<key>IDECodeSnippetLanguage</key>
