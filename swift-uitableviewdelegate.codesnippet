@@ -9,8 +9,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //MARK: UITableViewDelegate
-    
+	<string>   
+//MARK: - UITableViewDelegate
+extension &lt;#ViewController#&gt;: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
@@ -33,7 +34,9 @@
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
         
-    }</string>
+    }
+}
+	</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>183B54E8-CAE0-4C8F-B8B3-43E3965FDF1A</string>
 	<key>IDECodeSnippetLanguage</key>
